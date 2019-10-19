@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pixlee Android SDK</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="niks_string"><u>Share your photos with us!</u></string>
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:text="Select One"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear11"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_upload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_upload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_upload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_weight="1"
+                android:src="@mipmap/icon_upload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_weight="1"
+                android:text="Niks Creation"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:id="@+id/txt22"
+                android:layout_weight="1"
+                android:text="PIXLEE SAMPLE"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/txt33"
+                android:layout_weight="1"
+                android:text="NEW PIXLEE"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/txt44"
+                android:layout_weight="1"
+                android:text="PIXLEE WEBVIEW"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_border"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/txtcircle1"
+                android:text="1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtcircle1_text"
+                android:text="choose\nsource"
+                android:gravity="center"
+                android:textSize="8sp"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/line_fill"
+            android:layout_weight="1"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/txtcircle2"
+                android:text="2"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtcircle2_text"
+                android:text="select\ncontent"
+                android:gravity="center"
+                android:textSize="8sp"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/line_fill"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/txtcircle3"
+                android:text="3"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtcircle3_text"
+                android:text="review\nsubmission"
+                android:gravity="center|center_horizontal"
+                android:textSize="8sp"
+                android:layout_margin="1dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/line_fill"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/txtcircle4"
+                android:text="4"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtcircle4_text"
+                android:layout_weight="1"
+                android:text="choose\nsource"
+                android:gravity="center"
+                android:textSize="8sp"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_margin="2dp"
+            android:layout_weight="1.1"
+            >
+            <ImageView
+                android:id="@+id/logo_exit"
+                android:src="@mipmap/exit_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+      <FrameLayout
+        android:id="@+id/niks_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+<!--        <fragment-->
+<!--            android:id="@+id/payment_detail_fragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:layout="@layout/layout1"/>-->
+
+
+      </FrameLayout>
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lin01"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/line_border"
+            android:weightSum="100"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start" >
+
+                <ImageView
+                    android:id="@+id/image_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="60"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_border"
+                android:layout_gravity="start"
+                >
+
+                <EditText
+                    android:id="@+id/edit_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:hint="Write a caption..."
+                    android:gravity="start|top"
+                    android:scrollbars="vertical"
+                    android:inputType="textImeMultiLine" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+
+                >
+
+            <ImageView
+                android:id="@+id/imagedelete"
+
+                android:src="@mipmap/bin2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center|center_horizontal"
+
+
+                />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin02"
+            android:layout_below="@+id/lin01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/line_border"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:enabled="false"
+                android:scrollbars="vertical"
+                android:textSize="14sp"
+                android:hint="PRODUCT: Adding the product name, URL or location helps with getting your content featured!"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="next"
+            android:layout_margin="15dp"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            android:background="#808080"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
